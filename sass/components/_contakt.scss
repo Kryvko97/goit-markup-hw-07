@@ -1,0 +1,33 @@
+.contakt-list{
+text-align: center;
+margin-left: auto;
+
+}
+.contakt-item:not(:last-child){
+  margin-right:50px;
+ 
+}
+
+.contakt-link {
+font-weight: 500;
+font-size: 14px;
+line-height:calc(16/14);
+letter-spacing: 0.02em;
+color:var(--color-ddress);
+
+}
+.contakt-link-wrap{
+  display: flex;
+align-items: center;
+justify-content: center;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contakt-link:hover,
+.contakt-link:focus{
+color:var(--text-link-color-hover);
+}
+.contakt-icon-icon{
+  fill: currentColor;
+  margin-right: 10px;
+} 
