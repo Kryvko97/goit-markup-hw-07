@@ -1,4 +1,9 @@
-.customers-title {
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-title {
 font-weight: 700;
 font-size: 36px;
 line-height:calc( 42 / 36);
@@ -7,3 +12,5 @@ letter-spacing: 0.03em;
 color:var(--title-color);
 margin-bottom: 50px;
 }
+
+

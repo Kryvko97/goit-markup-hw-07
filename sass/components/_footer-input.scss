@@ -31,10 +31,12 @@ color: #FFFFFF;
   border-radius: 4px;
   color: #ECECEC;
   outline: transparent;
+&:hover,
+&:focus{
+ border-color:  #2196F3;
 }
-.imput-email-footer:focus{
-  border-color:  #2196F3;
 }
+
 .btb-email-foter{
   padding: 10px 28px;
   width: 200px;
